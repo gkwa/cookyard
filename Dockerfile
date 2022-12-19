@@ -11,3 +11,4 @@ RUN version=$(curl -s https://api.github.com/repos/dmshaw/paperkey/releases/late
       /root/rpmbuild/RPMS/x86_64/paperkey-${version}-1.x86_64.rpm \
       && \
     paperkey --version
+RUN echo hello
