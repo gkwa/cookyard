@@ -13,3 +13,4 @@ RUN version=$(curl -s https://api.github.com/repos/dmshaw/paperkey/releases/late
     paperkey --version
 RUN echo hello
 
+
